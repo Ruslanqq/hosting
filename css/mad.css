@@ -1,0 +1,192 @@
+@media (max-width: 919px){
+	ul.menu__list{
+     display: none;
+    position: absolute;
+    top: 87px;
+    right: 0;left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 5; 
+    
+	}
+	 .menu__list a{
+		display: block;
+		padding: 16px 0;
+		border-top: 1px solid #000;
+		background-color: #fff;
+	}
+	 ul.menu__list  li{
+	 	margin: 0;
+	 }
+}
+@media (min-width: 920px){
+.btn__menu{
+		display: none;
+		
+	}
+	ul.menu__list{
+		display: flex !important;
+	}
+
+	}
+
+	@media (max-width: 545px){
+		div.top-info{
+			width: 250px;
+		}
+	}
+	@media (max-width: 840px){
+		.top-img__box img{
+		width: 300px;
+		}
+		div.top-img__strimg{
+			width: 160px;
+			height: 160px;
+			top: -50px;
+			right: 10px;
+		}
+
+	}
+	@media (max-width: 740px){
+		.top__inner{
+			flex-wrap: wrap;
+			justify-content: center;
+		;
+
+		}
+		.top-info{
+			max-width: 100%;
+			margin-right: 0;
+			margin-bottom: 10px;
+
+		}
+		section#main.top{
+		padding-top: 50px;
+		padding-bottom: 80px;
+		}
+		 div.price__item{
+			width: 100%;
+		 }
+	/*	section#main.top,
+		div.reviews,*/
+		div.price{
+			padding-top: 30px;
+			padding-bottom:30px;
+		}
+		div.footer-form{
+			width: 100%;
+			margin-top: 30px;
+		}
+
+		div.footer__inner{
+			justify-content: flex-start;
+		}
+	}
+	
+		@media (max-width: 1060px){
+		 .preice__items{
+		 	flex-wrap: wrap;
+
+		 }
+		 .price__item{
+		 	min-width: 48%;
+		 	margin-bottom: 50px;
+		 }
+		 .price-item__namber{
+		 	margin: 0 auto;
+		 	left: 0;
+		 	right: 0;
+		 }
+		 .footer__inner{;
+		 	flex-wrap: wrap;
+		 }
+	div.footer__col__logo{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	}
+
+		@media (max-width: 399px){
+				.top-img__strimg{
+					width: 165px;
+					height: 160px;
+					top: -5px;
+					right: 10px;
+				}	
+				.top-img__strimg{
+					width: 165px;
+					height: 160px;
+					top: -5px;
+					right: 10px;
+				}
+				 div.price__descr{
+			margin: 35px auto 50px;
+		 }
+		
+			 .price__item{
+			 	padding: 0 20px 40px;
+			 }	
+			 div.footer-menu{
+			 	margin-bottom: 0px;
+
+			 }
+			 div.title{
+			 	font-size: 36px;
+			 	line-height: 26px;
+			 
+			 }
+			 section#faq.reviews{
+			 	padding: 20px 0 20px;
+			 }
+			 section#overiew.price{
+			 	padding: 20px 0 20px;
+			 }
+		}
+
+				@media (max-width: 1265px){
+				.reviews-slider .slick-list{
+				margin:0px;
+
+				}
+			.reviews-slider .slick-slide{
+				margin: 0px;
+				
+
+				}
+				div.reviews-box{
+					box-shadow: none;
+
+				}
+
+				}
+		@media (max-width: 1105px){
+		div.top-info{
+			width: 350px;
+		}
+			div.reviews-box{
+			
+			margin: 0 auto;
+			max-width: 530px;
+			}
+
+	}
+	@media (max-width: 540px){
+			div.reviews-box{
+				display: block;
+				
+			}
+			div.reviews-box__img{
+				width: 100%;
+				min-height: 200px;
+			}
+			div.reviews-box__content{
+				width: 100%;
+				padding: 20px;
+				min-height: 260px;
+			}
+			div.reviews-slider .slick-slide{
+				margin: 0 50px;
+				padding-bottom: 30px;
+			}
+		
+	}
